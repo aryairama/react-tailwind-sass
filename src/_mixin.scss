@@ -1,0 +1,7 @@
+@mixin inline-menu($text-color: 'text-red-600', $display : 'inline-block') {
+    @apply #{$text-color};
+
+    li {
+        @apply #{$display} cursor-pointer;
+    }
+}

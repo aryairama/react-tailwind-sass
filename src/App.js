@@ -11,6 +11,20 @@ function App() {
           necessitatibus.
         </p>
         <button className={style['btn-red']}>Jos</button>
+        <ul className={style['mixin-menu-1']}>
+          <li>menu 1</li>
+          <li>menu 2</li>
+          <li>menu 3</li>
+          <li>menu 4</li>
+          <li>menu 5</li>
+        </ul>
+        <ul className={style['mixin-menu-2']}>
+          <li>menu 1</li>
+          <li>menu 2</li>
+          <li>menu 3</li>
+          <li>menu 4</li>
+          <li>menu 5</li>
+        </ul>
       </div>
     </div>
   );
