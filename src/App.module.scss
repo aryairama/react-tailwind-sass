@@ -1,3 +1,5 @@
+@use './variables'as *;
+
 .container-app {
   @apply bg-blue-400 h-[100vh] grid w-full;
 
@@ -8,7 +10,7 @@
       @apply text-5xl font-bold mb-10 text-white;
 
       &:hover {
-        @apply text-red-500;
+        color: map-get($map: $color, $key: danger);
       }
     }
 
@@ -16,7 +18,7 @@
       @apply text-white;
 
       &:hover {
-        @apply text-red-500
+        color: map-get($map: $color, $key: danger);
       }
     }
 
